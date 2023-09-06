@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 111;
+}
+
+#headerHR{
+    background-color: black;
+    height: 0.2px;
+    position: sticky;
+    top: 82px;
+    z-index: 111;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#JRN{
+    font-size: 50px;
+    font-family: 'REM', sans-serif;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.profesion{
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+.profession-text{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+.webdsgn{
+    font-size: 30px;
+}
+
+.photo{
+    margin-top: 50px;
+}
+
+.photo img{
+    width: 300px;
+    border-radius: 50%; 
+    border: 5px solid black;
+}
+
+.down{
+    margin-top: 50px;
+    font-size: 50px;
+    width: 50px;
+    margin-left: 740px;
+}
+
+.down:hover{
+    transition: transform .7s;
+    transform:scale(1.05);
+}
+
+.about-me{
+    background-color: rgb(245, 245, 245);
+    height: 715px;
+}
+
+.section-title p{
+    text-align: center;
+    font-family: 'REM', sans-serif;
+    font-size: 20px;
+}
+
+.about-me-icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.icon{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'REM', sans-serif;
+}
+
+.bi-envelope, .bi-balloon, .bi-geo-alt{
+    font-size: 40px;
+}
+
+.skills{
+    height: 715px;
+}
+
+.skills-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill{
+    text-align: center;
+    font-size: 100px;
+}
+
+.skill p{
+    font-size: 20px;
+    font-family: 'REM', sans-serif;
+}
+
+.projects{
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 200px;
+}
+
+.proyectos{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    justify-content: center;
+    gap: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.tarjeta{
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.tarjeta h2{
+    font-size: 15px;
+     padding: 0;
+}
+
+.tarjeta img{
+    width: 300px;
+    height: 150px;
+    box-sizing: border-box;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.tecs{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#hrExp{
+  width: 2px;
+  height: 300px;
+  background-color: rgb(180, 180, 180);
+  margin-left: 200px;  
+  border: none;
+}
+
+.experience{
+    height: 715px;
+}
+
+.experiencia{
+    display: flex;
+}
+
+.exptext{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
