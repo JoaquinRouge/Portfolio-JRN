@@ -162,6 +162,10 @@ h2{
     margin-top: 100px;
 }
 
+#h2-conocimientos{
+    margin-bottom: 80px;
+}
+
 .tarjeta{
     width: 300px;
     border: 3px solid black;
